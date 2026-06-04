@@ -120,11 +120,17 @@ Question 11:
 
 **After Q11 — LinkedIn collection (if opted in):**
 
-If the user said yes to LinkedIn in Setup Question B, ask:
+If the user said yes to LinkedIn in Setup Question B, ask these two questions one at a time:
 
-"Last thing — share your LinkedIn URL and I'll try to read it directly. If it's behind a login wall, just paste your headline, About section, and Featured section text instead."
+Question L1:
+"Paste your current LinkedIn headline exactly as it appears on your profile."
 
-Wait for the answer. Attempt WebFetch on the URL. If the result is a login page or empty, ask them to paste the text instead.
+Wait for the answer. Acknowledge in one sentence. Then ask:
+
+Question L2:
+"Now paste your current About section — the full text, exactly as it appears."
+
+Wait for the answer. You now have everything needed for the LinkedIn audit.
 
 ---
 
@@ -178,18 +184,16 @@ Make a note of:
 
 ---
 
-## STEP 5 — Read LinkedIn Profile (if opted in)
+## STEP 5 — Analyse LinkedIn Content (if opted in)
 
-If the user provided a LinkedIn URL:
-- WebFetch it
-- If it returns a login wall or empty content, use the text they pasted instead
+The user has pasted their headline (L1) and About section (L2) directly. Use those.
 
-From the LinkedIn content, note:
-1. The headline — what does it say they are?
-2. The About section — does it tell a story or just list skills?
-3. The Featured section — what is pinned and is it the strongest proof point?
-4. Experience section — how far down does the commercial result (from Q5) appear?
-5. Overall tone — does it match the portfolio or contradict it?
+From the pasted content, note:
+1. The headline — what does it say they are? Is it a job title or a positioning statement?
+2. The About section — does it tell a story or list skills? Where does it open and where does it close?
+3. Where the commercial result (from Q5) appears — or if it appears at all
+4. Whether the tone and story match the portfolio or contradict it
+5. What a founder or hiring manager would think after reading both headline and About section together
 
 ---
 
@@ -291,23 +295,23 @@ Be honest. If something in their background is a strong match, say so. If someth
 [INCLUDE THIS SECTION ONLY IF LinkedIn audit was opted in]
 
 ### Headline
-**Current:** [what it says]
-**The problem:** [what it signals vs. what it should]
-**Suggested rewrite:** [write the actual new headline — 120 characters max]
+**Current:** [paste their exact headline]
+**The problem:** [what this headline signals to a recruiter or founder in one sentence — be specific]
+**Rewritten headline:** [write the full new headline — 120 characters max. It must include: what they do, who they do it for, and the strongest differentiator from their background. Not a job title. A positioning statement in one line.]
 
 ### About Section
-**Current story:** [what narrative it tells in 1–2 sentences]
-**What it should say:** [the gap — what's missing or misframed]
-**Suggested rewrite:** [first 2–3 sentences of a new About section — the hook that makes someone keep reading]
+**Current story:** [summarise what narrative the current About section tells in 2–3 sentences — not what it says, what story it tells]
+**What is missing:** [the specific thing from the interview — background, commercial result, or positioning — that is absent or buried]
+**Rewritten About section:** [write the full new About section. Structure: hook sentence that stops the scroll → 2–3 sentences on background and what they've actually built (include the number from Q5) → 1–2 sentences on what they build now with AI → 1 sentence on who they're for and how to reach them. This is not a template — write it specifically for this person using everything from the interview.]
 
 ### Featured Section
 **What is pinned:** [what they're leading with]
-**What should be pinned:** [the strongest proof point — portfolio, result, or project]
+**What should be pinned:** [the strongest proof point — portfolio, result, or project — and why]
 **The change:** [one specific action]
 
 ### Consistency Check
-**Does your LinkedIn tell the same story as your portfolio?** [yes/no and why]
-**The disconnect:** [if they're saying different things — name it specifically]
+**Does your LinkedIn tell the same story as your portfolio?** [yes/no and why — be direct]
+**The disconnect:** [if they're saying different things, name it specifically]
 **The fix:** [one sentence — which one to align to the other, and how]
 
 ---
